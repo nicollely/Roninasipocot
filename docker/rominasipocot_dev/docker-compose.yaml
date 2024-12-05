@@ -7,7 +7,7 @@ services:
     ports:
       - "10000:5000"
     networks:
-      - rominasipocot_network
+      - rominasipocot_dev_network
     volumes:
       - ../.././:/app
       - /etc/localtime:/etc/localtime:ro
