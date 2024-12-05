@@ -1,0 +1,17 @@
+services:
+  rominasipocot_dev_frontend:
+    container_name: rominasipocot_dev_frontend
+    build:
+      context: .
+      dockerfile: dockerfiles/rominasipocot_dev_frontend.dockerfile
+    ports:
+      - "10000:5000"
+    networks:
+      - rominasipocot_network
+    volumes:
+      - ../.././:/app
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+networks:
+  rominasipocot_dev_network:
+    driver: bridge
