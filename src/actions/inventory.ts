@@ -41,7 +41,7 @@ export const createInventoryItem = async (values: z.infer<typeof InventoryFormVa
         const inventoryItem = await db.inventory.create({
             data: {
                 name,
-                stocks,
+                stocks: parseInt(stocks, 10),
             },
         });
 
@@ -73,7 +73,7 @@ export const updateInventoryItem = async (inventoryId: string, values: z.infer<t
             },
             data: {
                 name,
-                stocks,
+                stocks: parseInt(stocks, 10),
             },
         });
 
