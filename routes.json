@@ -1,0 +1,818 @@
+[
+  {
+    "route": "/actions/appointment",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/actions/appointment.ts"
+  },
+  {
+    "route": "/actions/catering",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/actions/catering.ts"
+  },
+  {
+    "route": "/actions/employees",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/actions/employees.ts"
+  },
+  {
+    "route": "/actions/events",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/actions/events.ts"
+  },
+  {
+    "route": "/actions/inventory",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/actions/inventory.ts"
+  },
+  {
+    "route": "/actions/menus",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/actions/menus.ts"
+  },
+  {
+    "route": "/actions/rooms",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/actions/rooms.ts"
+  },
+  {
+    "route": "/actions/user",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/actions/user.ts"
+  },
+  {
+    "route": "/app/(auth)/layout",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(auth)/layout.tsx"
+  },
+  {
+    "route": "/app/(auth)/sign-in/:[...sign-in]/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(auth)/sign-in/[[...sign-in]]/page.tsx"
+  },
+  {
+    "route": "/app/(auth)/sign-up/:[...sign-up]/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(auth)/sign-up/[[...sign-up]]/page.tsx"
+  },
+  {
+    "route": "/app/(root)/accomodations/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(root)/accomodations/page.tsx"
+  },
+  {
+    "route": "/app/(root)/book-now/:roomId/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(root)/book-now/[roomId]/page.tsx"
+  },
+  {
+    "route": "/app/(root)/bookings/components/client",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(root)/bookings/components/client.tsx"
+  },
+  {
+    "route": "/app/(root)/bookings/components/column",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(root)/bookings/components/column.tsx"
+  },
+  {
+    "route": "/app/(root)/bookings/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(root)/bookings/page.tsx"
+  },
+  {
+    "route": "/app/(root)/catering/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(root)/catering/page.tsx"
+  },
+  {
+    "route": "/app/(root)/contact-us/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(root)/contact-us/page.tsx"
+  },
+  {
+    "route": "/app/(root)/dining-menu/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(root)/dining-menu/page.tsx"
+  },
+  {
+    "route": "/app/(root)/events/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(root)/events/page.tsx"
+  },
+  {
+    "route": "/app/(root)/layout",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(root)/layout.tsx"
+  },
+  {
+    "route": "/app/(root)/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(root)/page.tsx"
+  },
+  {
+    "route": "/app/(root)/profile/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(root)/profile/page.tsx"
+  },
+  {
+    "route": "/app/(root)/view-catering/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(root)/view-catering/page.tsx"
+  },
+  {
+    "route": "/app/(root)/view-event/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(root)/view-event/page.tsx"
+  },
+  {
+    "route": "/app/(root)/view-rooms/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/(root)/view-rooms/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/appointments/components/appointment-calendar",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/appointments/components/appointment-calendar.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/appointments/components/cell-action",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/appointments/components/cell-action.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/appointments/components/client",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/appointments/components/client.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/appointments/components/column",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/appointments/components/column.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/appointments/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/appointments/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/catering/:cateringId/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/catering/[cateringId]/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/catering/components/client",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/catering/components/client.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/catering/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/catering/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/customers/components/cell-action",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/customers/components/cell-action.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/customers/components/client",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/customers/components/client.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/customers/components/column",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/customers/components/column.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/customers/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/customers/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/dashboard/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/dashboard/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/employees/:employeeId/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/employees/[employeeId]/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/employees/components/cell-action",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/employees/components/cell-action.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/employees/components/client",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/employees/components/client.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/employees/components/column",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/employees/components/column.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/employees/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/employees/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/employees/payroll/:employeeId/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/employees/payroll/[employeeId]/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/employees/payroll/components/attendance-modal",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/employees/payroll/components/attendance-modal.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/employees/payroll/components/cell-action",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/employees/payroll/components/cell-action.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/employees/payroll/components/client",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/employees/payroll/components/client.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/employees/payroll/components/column",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/employees/payroll/components/column.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/employees/payroll/components/payroll-modal",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/employees/payroll/components/payroll-modal.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/employees/payroll/edit/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/employees/payroll/edit/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/events/:eventId/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/events/[eventId]/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/events/components/client",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/events/components/client.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/events/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/events/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/feedbacks/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/feedbacks/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/inventory/components/cell-action",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/inventory/components/cell-action.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/inventory/components/client",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/inventory/components/client.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/inventory/components/column",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/inventory/components/column.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/inventory/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/inventory/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/layout",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/layout.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/menu/:menuId/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/menu/[menuId]/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/menu/components/client",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/menu/components/client.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/menu/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/menu/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/menu-order/components/cell-action",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/menu-order/components/cell-action.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/menu-order/components/client",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/menu-order/components/client.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/menu-order/components/column",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/menu-order/components/column.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/menu-order/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/menu-order/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/rooms/:roomId/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/rooms/[roomId]/page.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/rooms/components/client",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/rooms/components/client.tsx"
+  },
+  {
+    "route": "/app/admin/(views)/rooms/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/(views)/rooms/page.tsx"
+  },
+  {
+    "route": "/app/admin/auth/sign-in/page",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/auth/sign-in/page.tsx"
+  },
+  {
+    "route": "/app/admin/layout",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/admin/layout.tsx"
+  },
+  {
+    "route": "/app/favicon.ico",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/favicon.ico"
+  },
+  {
+    "route": "/app/fonts/GeistMonoVF.woff",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/fonts/GeistMonoVF.woff"
+  },
+  {
+    "route": "/app/fonts/GeistVF.woff",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/fonts/GeistVF.woff"
+  },
+  {
+    "route": "/app/globals.css",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/globals.css"
+  },
+  {
+    "route": "/app/layout",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/app/layout.tsx"
+  },
+  {
+    "route": "/components/admin/navbar",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/admin/navbar.tsx"
+  },
+  {
+    "route": "/components/forms/catering-form",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/forms/catering-form.tsx"
+  },
+  {
+    "route": "/components/forms/email-login",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/forms/email-login.tsx"
+  },
+  {
+    "route": "/components/forms/email-register",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/forms/email-register.tsx"
+  },
+  {
+    "route": "/components/forms/employee-form",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/forms/employee-form.tsx"
+  },
+  {
+    "route": "/components/forms/event-form",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/forms/event-form.tsx"
+  },
+  {
+    "route": "/components/forms/inventory-form",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/forms/inventory-form.tsx"
+  },
+  {
+    "route": "/components/forms/menu-form",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/forms/menu-form.tsx"
+  },
+  {
+    "route": "/components/forms/payroll-form",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/forms/payroll-form.tsx"
+  },
+  {
+    "route": "/components/forms/profile-form",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/forms/profile-form.tsx"
+  },
+  {
+    "route": "/components/forms/room-appointment-form",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/forms/room-appointment-form.tsx"
+  },
+  {
+    "route": "/components/forms/room-form",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/forms/room-form.tsx"
+  },
+  {
+    "route": "/components/forms/room-step/step-1",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/forms/room-step/step-1.tsx"
+  },
+  {
+    "route": "/components/forms/room-step/step-2",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/forms/room-step/step-2.tsx"
+  },
+  {
+    "route": "/components/forms/room-step/step-3",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/forms/room-step/step-3.tsx"
+  },
+  {
+    "route": "/components/forms/room-step/step-4",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/forms/room-step/step-4.tsx"
+  },
+  {
+    "route": "/components/globals/amenities-container",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/amenities-container.tsx"
+  },
+  {
+    "route": "/components/globals/bread-crumb-banner",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/bread-crumb-banner.tsx"
+  },
+  {
+    "route": "/components/globals/catering-card",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/catering-card.tsx"
+  },
+  {
+    "route": "/components/globals/catering-container",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/catering-container.tsx"
+  },
+  {
+    "route": "/components/globals/container",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/container.tsx"
+  },
+  {
+    "route": "/components/globals/custom-calendar",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/custom-calendar.tsx"
+  },
+  {
+    "route": "/components/globals/custom-form-field",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/custom-form-field.tsx"
+  },
+  {
+    "route": "/components/globals/event-card",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/event-card.tsx"
+  },
+  {
+    "route": "/components/globals/event-container",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/event-container.tsx"
+  },
+  {
+    "route": "/components/globals/events-container",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/events-container.tsx"
+  },
+  {
+    "route": "/components/globals/heading",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/heading.tsx"
+  },
+  {
+    "route": "/components/globals/image-slider",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/image-slider.tsx"
+  },
+  {
+    "route": "/components/globals/menu-card",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/menu-card.tsx"
+  },
+  {
+    "route": "/components/globals/menu-container",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/menu-container.tsx"
+  },
+  {
+    "route": "/components/globals/placeholder-card",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/placeholder-card.tsx"
+  },
+  {
+    "route": "/components/globals/room-card",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/room-card.tsx"
+  },
+  {
+    "route": "/components/globals/room-container",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/room-container.tsx"
+  },
+  {
+    "route": "/components/globals/single-image-upload",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/single-image-upload.tsx"
+  },
+  {
+    "route": "/components/globals/staff-container",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/staff-container.tsx"
+  },
+  {
+    "route": "/components/globals/testimonials",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/globals/testimonials.tsx"
+  },
+  {
+    "route": "/components/homepage/background-image",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/homepage/background-image.tsx"
+  },
+  {
+    "route": "/components/homepage/controls",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/homepage/controls.tsx"
+  },
+  {
+    "route": "/components/homepage/cta",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/homepage/cta.tsx"
+  },
+  {
+    "route": "/components/homepage/footer",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/homepage/footer.tsx"
+  },
+  {
+    "route": "/components/homepage/navbar",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/homepage/navbar.tsx"
+  },
+  {
+    "route": "/components/homepage/other-info",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/homepage/other-info.tsx"
+  },
+  {
+    "route": "/components/homepage/progress",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/homepage/progress.tsx"
+  },
+  {
+    "route": "/components/homepage/slide-info",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/homepage/slide-info.tsx"
+  },
+  {
+    "route": "/components/homepage/slider-card",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/homepage/slider-card.tsx"
+  },
+  {
+    "route": "/components/homepage/slides",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/homepage/slides.tsx"
+  },
+  {
+    "route": "/components/homepage/specific-catering",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/homepage/specific-catering.tsx"
+  },
+  {
+    "route": "/components/homepage/specific-event",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/homepage/specific-event.tsx"
+  },
+  {
+    "route": "/components/homepage/specific-room",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/homepage/specific-room.tsx"
+  },
+  {
+    "route": "/components/homepage/user-account",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/homepage/user-account.tsx"
+  },
+  {
+    "route": "/components/homepage/video-showcase",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/homepage/video-showcase.tsx"
+  },
+  {
+    "route": "/components/magic-ui/layout-grid",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/magic-ui/layout-grid.tsx"
+  },
+  {
+    "route": "/components/magic-ui/marquee",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/magic-ui/marquee.tsx"
+  },
+  {
+    "route": "/components/magic-ui/tweet-card",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/magic-ui/tweet-card.tsx"
+  },
+  {
+    "route": "/components/magic-ui/video-dialog",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/magic-ui/video-dialog.tsx"
+  },
+  {
+    "route": "/components/modals/approve-modal",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/modals/approve-modal.tsx"
+  },
+  {
+    "route": "/components/modals/decline-modal",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/modals/decline-modal.tsx"
+  },
+  {
+    "route": "/components/modals/inventory-modal",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/modals/inventory-modal.tsx"
+  },
+  {
+    "route": "/components/modals/order-modal",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/modals/order-modal.tsx"
+  },
+  {
+    "route": "/components/modals/schedule-modal",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/modals/schedule-modal.tsx"
+  },
+  {
+    "route": "/components/providers/theme-provider",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/providers/theme-provider.tsx"
+  },
+  {
+    "route": "/components/ui/accordion",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/accordion.tsx"
+  },
+  {
+    "route": "/components/ui/alert-dialog",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/alert-dialog.tsx"
+  },
+  {
+    "route": "/components/ui/alert-modal",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/alert-modal.tsx"
+  },
+  {
+    "route": "/components/ui/alert",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/alert.tsx"
+  },
+  {
+    "route": "/components/ui/aspect-ratio",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/aspect-ratio.tsx"
+  },
+  {
+    "route": "/components/ui/avatar",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/avatar.tsx"
+  },
+  {
+    "route": "/components/ui/badge",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/badge.tsx"
+  },
+  {
+    "route": "/components/ui/breadcrumb",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/breadcrumb.tsx"
+  },
+  {
+    "route": "/components/ui/button",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/button.tsx"
+  },
+  {
+    "route": "/components/ui/calendar",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/calendar.tsx"
+  },
+  {
+    "route": "/components/ui/card",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/card.tsx"
+  },
+  {
+    "route": "/components/ui/carousel",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/carousel.tsx"
+  },
+  {
+    "route": "/components/ui/chart",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/chart.tsx"
+  },
+  {
+    "route": "/components/ui/checkbox",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/checkbox.tsx"
+  },
+  {
+    "route": "/components/ui/collapsible",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/collapsible.tsx"
+  },
+  {
+    "route": "/components/ui/command",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/command.tsx"
+  },
+  {
+    "route": "/components/ui/context-menu",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/context-menu.tsx"
+  },
+  {
+    "route": "/components/ui/data-table",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/data-table.tsx"
+  },
+  {
+    "route": "/components/ui/dialog",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/dialog.tsx"
+  },
+  {
+    "route": "/components/ui/drawer",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/drawer.tsx"
+  },
+  {
+    "route": "/components/ui/dropdown-menu",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/dropdown-menu.tsx"
+  },
+  {
+    "route": "/components/ui/dynamic-select",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/dynamic-select.tsx"
+  },
+  {
+    "route": "/components/ui/form",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/form.tsx"
+  },
+  {
+    "route": "/components/ui/hover-card",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/hover-card.tsx"
+  },
+  {
+    "route": "/components/ui/image-upload",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/image-upload.tsx"
+  },
+  {
+    "route": "/components/ui/input-otp",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/input-otp.tsx"
+  },
+  {
+    "route": "/components/ui/input",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/input.tsx"
+  },
+  {
+    "route": "/components/ui/label",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/label.tsx"
+  },
+  {
+    "route": "/components/ui/menubar",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/menubar.tsx"
+  },
+  {
+    "route": "/components/ui/modal",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/modal.tsx"
+  },
+  {
+    "route": "/components/ui/navigation-menu",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/navigation-menu.tsx"
+  },
+  {
+    "route": "/components/ui/pagination",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/pagination.tsx"
+  },
+  {
+    "route": "/components/ui/popover",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/popover.tsx"
+  },
+  {
+    "route": "/components/ui/progress",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/progress.tsx"
+  },
+  {
+    "route": "/components/ui/radio-group",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/radio-group.tsx"
+  },
+  {
+    "route": "/components/ui/resizable",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/resizable.tsx"
+  },
+  {
+    "route": "/components/ui/scroll-area",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/scroll-area.tsx"
+  },
+  {
+    "route": "/components/ui/select",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/select.tsx"
+  },
+  {
+    "route": "/components/ui/separator",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/separator.tsx"
+  },
+  {
+    "route": "/components/ui/sheet",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/sheet.tsx"
+  },
+  {
+    "route": "/components/ui/skeleton",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/skeleton.tsx"
+  },
+  {
+    "route": "/components/ui/slider",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/slider.tsx"
+  },
+  {
+    "route": "/components/ui/sonner",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/sonner.tsx"
+  },
+  {
+    "route": "/components/ui/switch",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/switch.tsx"
+  },
+  {
+    "route": "/components/ui/table",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/table.tsx"
+  },
+  {
+    "route": "/components/ui/tabs",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/tabs.tsx"
+  },
+  {
+    "route": "/components/ui/textarea",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/textarea.tsx"
+  },
+  {
+    "route": "/components/ui/toast",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/toast.tsx"
+  },
+  {
+    "route": "/components/ui/toaster",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/toaster.tsx"
+  },
+  {
+    "route": "/components/ui/toggle-group",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/toggle-group.tsx"
+  },
+  {
+    "route": "/components/ui/toggle",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/toggle.tsx"
+  },
+  {
+    "route": "/components/ui/tooltip",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/components/ui/tooltip.tsx"
+  },
+  {
+    "route": "/constants/barangay",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/constants/barangay.ts"
+  },
+  {
+    "route": "/constants",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/constants/index.ts"
+  },
+  {
+    "route": "/constants/municipality",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/constants/municipality.ts"
+  },
+  {
+    "route": "/constants/province",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/constants/province.ts"
+  },
+  {
+    "route": "/constants/region",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/constants/region.ts"
+  },
+  {
+    "route": "/hooks/use-cart",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/hooks/use-cart.ts"
+  },
+  {
+    "route": "/hooks/use-toast",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/hooks/use-toast.ts"
+  },
+  {
+    "route": "/lib/address-selection",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/lib/address-selection.ts"
+  },
+  {
+    "route": "/lib/db",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/lib/db.ts"
+  },
+  {
+    "route": "/lib/s3",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/lib/s3.ts"
+  },
+  {
+    "route": "/lib/types",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/lib/types.ts"
+  },
+  {
+    "route": "/lib/utils",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/lib/utils.ts"
+  },
+  {
+    "route": "/lib/validators",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/lib/validators/index.ts"
+  },
+  {
+    "route": "/middleware",
+    "file": "/home/aldrinaureus/web_projects/Roninasipocot/src/middleware.ts"
+  }
+]

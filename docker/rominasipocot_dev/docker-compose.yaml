@@ -8,6 +8,7 @@ services:
       - "10000:5000"
     networks:
       - rominasipocot_dev_network
+    restart: always
     volumes:
       - ../.././:/app
       - /etc/localtime:/etc/localtime:ro

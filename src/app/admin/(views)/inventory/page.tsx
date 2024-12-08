@@ -4,17 +4,11 @@ import Link from 'next/link'
 import React from 'react'
 import InventoryClient from './components/client'
 import { InventoryColumn } from './components/column'
-import db from '@/lib/db'
-
-
-
+import { getInventoryItems } from '@/actions/inventory'
+import type { Inventory } from '@prisma/client'
 
 const Inventory = async () => {
-    const inventoryItems = await db.inventory.findMany({
-        orderBy: {
-            name: "desc",
-        }
-    })
+    const inventoryItems = await getInventoryItems().then((res) => res.inventoryItems as Inventory[]);
 
     const formattedData: InventoryColumn[] = inventoryItems.map((item) => ({
         id: String(item.id),

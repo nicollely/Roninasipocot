@@ -14,10 +14,12 @@ export const columns: ColumnDef<InventoryColumn>[] = [
     {
         accessorKey: "name",
         header: "Item",
+        size: 2500
     },
     {
         accessorKey: "stocks",
         header: "Stock",
+        size: 50
     },
     {
         id: "actions",
@@ -25,5 +27,6 @@ export const columns: ColumnDef<InventoryColumn>[] = [
         cell: ({ row }) => {
             return <CellAction data={row.original} />;
         },
+        size: 10
     }
 ]
