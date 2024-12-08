@@ -270,13 +270,11 @@ export const Step2FormValidation = z.object({
 
 export const InventoryFormValidation = z.object({
   name: z.string().min(1, { message: "Name is required" }),
-  description: z.string().optional(),
-  stocks: z.number().min(1, { message: "Stocks must be at least 1" }),
-  image: z
-    .instanceof(File)
-    .refine((file) => file.size > 0, { message: "File is required" })
-    .refine((file) => file.size <= 5 * 1024 * 1024, { message: "File must be less than 5MB" })
-    .refine((file) => ["image/jpeg", "image/png"].includes(file.type), {
-      message: "Only JPEG and PNG formats are allowed",
-    }),
+  stocks: z.string().refine((value) => {
+    const parsedValue = parseInt(value, 10);
+
+    return !isNaN(parsedValue) && parsedValue > 0;
+  }, {
+    message: "Stocks must be a positive number",
+  }),
 })

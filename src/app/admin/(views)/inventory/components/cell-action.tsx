@@ -13,7 +13,6 @@ import {
 import {
   Edit,
   MoreHorizontal,
-  Trash,
 } from "lucide-react";
 import { toast } from "sonner";
 import { useParams, useRouter } from "next/navigation";
@@ -72,13 +71,9 @@ export const CellAction: React.FC<CellActionProps> = ({ data }) => {
         </DropdownMenuTrigger>
         <DropdownMenuContent align="end">
             <DropdownMenuLabel>Actions</DropdownMenuLabel>
-            <DropdownMenuItem onClick={() => router.push(`/admin/inventory/${data.id}`)}>
+            <DropdownMenuItem onClick={() => {router.push(`/admin/inventory/${data.id}`)}}>
                 <Edit className="mr-2 w-4 h-4" />
                 Edit
-            </DropdownMenuItem>
-            <DropdownMenuItem onClick={() => router.push(`/admin/inventory/${data.id}`)}>
-                <Trash className="mr-2 w-4 h-4 text-destructive-foreground" />
-                Remove
             </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>

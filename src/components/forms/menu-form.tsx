@@ -126,7 +126,7 @@ const MenuForm: React.FC<MenuFormProps> = ({ initialData }) => {
                   size="sm"
                   type="button"
                 >
-                  Discard
+                  Remove
                 </Button>
               )}
               <Button type="submit" disabled={isLoading} size="sm">
