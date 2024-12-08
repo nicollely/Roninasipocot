@@ -41,7 +41,7 @@ const InventoryForm: React.FC<InventoryFormProps> = ({ initialData }) => {
     const onSubmit = async (data: z.infer<typeof InventoryFormValidation>) => {
         setIsLoading(true);
         if (initialData) {
-            updateInventoryItem(params.menuId as string, data)
+            updateInventoryItem(params.inventoryId as string, data)
                 .then((data) => {
                 if (data.success) {
                     toast.success(data.success);
