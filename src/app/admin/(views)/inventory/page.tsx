@@ -25,7 +25,7 @@ const Inventory = async () => {
                 />
                 <div className="flex items-center space-x-2">
                     <Link
-                        href="/admin/employees/new"
+                        href="/admin/inventory/new"
                         className={buttonVariants({ size: "sm" })}
                     >
                         + Add Inventory Item
