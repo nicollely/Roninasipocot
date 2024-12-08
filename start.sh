@@ -9,5 +9,4 @@ fi
 
 echo "Starting development server..."
 
-chmod -R 777 .
 npx next dev --port 5000 --hostname 0.0.0.0
