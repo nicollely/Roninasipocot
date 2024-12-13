@@ -278,3 +278,9 @@ export const InventoryFormValidation = z.object({
     message: "Stocks must be a positive number",
   }),
 })
+
+export const EmployeeScheduleFormValidation = z.object({
+  room: z.string().min(1, { message: "Room is required" }),
+  date: z.string().min(1, { message: "Date is required" }),
+  status: z.string().min(1, { message: "Status is required" }),
+})

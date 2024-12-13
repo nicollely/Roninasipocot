@@ -79,9 +79,9 @@ export const CellAction: React.FC<CellActionProps> = ({ data }) => {
         </DropdownMenuTrigger>
         <DropdownMenuContent align="end">
           <DropdownMenuLabel>Actions</DropdownMenuLabel>
-          <DropdownMenuItem onClick={() => setIsScheduleModalOpen(true)}>
+          <DropdownMenuItem onClick={() => router.push(`/admin/employees/${data.id}/schedules`)}>
             <Calendar className="w-4 h-4 mr-2" />
-            Add Schedule
+            Schedules
           </DropdownMenuItem>
           <DropdownMenuItem onClick={() => setIsScheduleModalOpen(true)}>
             <Calendar className="w-4 h-4 mr-2" />

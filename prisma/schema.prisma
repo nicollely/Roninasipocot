@@ -205,7 +205,7 @@ model Attendance {
 model EmployeeSchedule {
   id         String   @id @unique @default(uuid())
   employeeId String
-  date       String
+  date       DateTime @default(now())
   roomId     String
   status     String
   createdAt  DateTime @default(now())
