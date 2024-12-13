@@ -6,7 +6,7 @@ import {
   AttendanceFormValidation,
   EmployeeFormValidation,
   PayrollFormValidation,
-  ScheduleFormValidation,
+  EmployeeScheduleFormValidation,
 } from "@/lib/validators";
 import { z } from "zod";
 
@@ -137,25 +137,25 @@ export const createAttendance = async (
 };
 
 export const createSchedule = async (
-  values: z.infer<typeof ScheduleFormValidation>,
+  values: z.infer<typeof EmployeeScheduleFormValidation>,
   employeeId: string
 ) => {
-  const validatedField = ScheduleFormValidation.safeParse(values);
+  const validatedField = EmployeeScheduleFormValidation.safeParse(values);
 
   if (!validatedField.success) {
     const errors = validatedField.error.errors.map((err) => err.message);
     return { error: `Validation Error: ${errors.join(", ")}` };
   }
 
-  const { room, scheduleDate } = validatedField.data;
+  const { room, date, status } = validatedField.data;
 
   try {
     await db.employeeSchedule.create({
       data: {
         employeeId,
-        date: scheduleDate,
-        roomId: room,
-        status: "Pending",
+        date: new Date(date),
+        roomId: room as unknown as string,
+        status: status,
       },
     });
 
@@ -248,8 +248,6 @@ export const getEmployeeSchedules = async (employeeId: string) => {
         room: true,
       },
     });
-
-
     return employeeSchedules;//what is this
   } catch (error: any) {
     return {
