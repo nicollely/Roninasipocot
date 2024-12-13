@@ -1,3 +1,4 @@
+import { Rooms } from "@prisma/client";
 import { ZodType, z } from "zod";
 
 export type UserRegistrationProps = {
@@ -280,7 +281,14 @@ export const InventoryFormValidation = z.object({
 })
 
 export const EmployeeScheduleFormValidation = z.object({
-  room: z.string().min(1, { message: "Room is required" }),
+  room: z.custom<Rooms>().refine(
+    (value) => {
+      return value !== null;
+    },
+    {
+      message: "Room is required",
+    }
+  ),
   date: z.string().min(1, { message: "Date is required" }),
   status: z.string().min(1, { message: "Status is required" }),
-})
+});
