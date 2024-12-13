@@ -6,8 +6,6 @@ import {
   AttendanceFormValidation,
   EmployeeFormValidation,
   PayrollFormValidation,
-  EmployeeSc,
-  EmployeeScheduleFormValidationheduleFormValidation,
   EmployeeScheduleFormValidation,
 } from "@/lib/validators";
 import { z } from "zod";
@@ -156,7 +154,7 @@ export const createSchedule = async (
       data: {
         employeeId,
         date: new Date(date),
-        roomId: room,
+        roomId: room as unknown as string,
         status: status,
       },
     });
