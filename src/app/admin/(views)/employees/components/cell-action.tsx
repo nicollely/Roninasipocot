@@ -24,7 +24,6 @@ import { useParams, useRouter } from "next/navigation";
 import { useState } from "react";
 import axios from "axios";
 import AlertModal from "@/components/ui/alert-modal";
-import ScheduleModal from "@/components/modals/schedule-modal";
 
 interface CellActionProps {
   data: EmployeeColumn;
@@ -35,7 +34,6 @@ export const CellAction: React.FC<CellActionProps> = ({ data }) => {
   const params = useParams();
   const [isLoading, setIsLoading] = useState(false);
   const [open, setOpen] = useState(false);
-  const [isScheduleModalOpen, setIsScheduleModalOpen] = useState(false); // State for Schedule Modal
   const onCopy = (name: string) => {
     navigator.clipboard.writeText(name);
     toast.success("Data copied to the clipboard");
@@ -64,12 +62,6 @@ export const CellAction: React.FC<CellActionProps> = ({ data }) => {
         loading={isLoading}
         onConfirm={onDelete}
       />
-      <ScheduleModal
-        isOpen={isScheduleModalOpen}
-        onClose={() => setIsScheduleModalOpen(false)}
-        data={data}
-        loading={isLoading}
-      />
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button variant="ghost" className="h-8 w-8 p-0">
@@ -82,10 +74,6 @@ export const CellAction: React.FC<CellActionProps> = ({ data }) => {
           <DropdownMenuItem onClick={() => router.push(`/admin/employees/${data.id}/schedules`)}>
             <Calendar className="w-4 h-4 mr-2" />
             Schedules
-          </DropdownMenuItem>
-          <DropdownMenuItem onClick={() => setIsScheduleModalOpen(true)}>
-            <Calendar className="w-4 h-4 mr-2" />
-            Attendance
           </DropdownMenuItem>
           <DropdownMenuItem
             onClick={() => router.push(`/admin/employees/payroll/${data.id}`)}

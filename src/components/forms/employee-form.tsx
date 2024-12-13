@@ -491,7 +491,7 @@ const EmployeeForm: React.FC<EmployeeFormProps> = ({ initialData }) => {
                                       }
                                       fromYear={DATE_YEAR_MIN}
                                       toYear={new Date().getFullYear()}
-                                      disabled={(date) => date > new Date()}
+                                      disabled={(date) => date < new Date()}
                                     />
                                   </PopoverContent>
                                 </Popover>
