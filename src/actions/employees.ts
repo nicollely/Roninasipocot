@@ -239,3 +239,23 @@ export const deleteEmployee = async (employeeId: string) => {
     };
   }
 };
+
+export const getEmployeeSchedules = async (employeeId: string) => { 
+  try {
+    const employeeSchedules = await db.employeeSchedule.findMany({
+      where: { employeeId },
+      include: {
+        room: true,
+      },
+    });
+
+
+    return employeeSchedules;//what is this
+  } catch (error: any) {
+    return {
+      error: `Failed to get employee schedules. Please try again. ${
+        error.message || ""
+      }`,
+    };
+  }
+}
